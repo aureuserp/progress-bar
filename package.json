@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "tailwindcss -i resources/css/index.css -o resources/dist/progress-bar.css --watch",
+    "build": "tailwindcss -i resources/css/index.css -o resources/dist/progress-bar.css --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "@tailwindcss/postcss": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  }
+}
