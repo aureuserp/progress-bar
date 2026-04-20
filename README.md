@@ -313,7 +313,7 @@ php artisan vendor:publish --tag="progress-bar-translations"
 ## Testing
 
 ```bash
-vendor/bin/pest --testsuite=ProgressBarFeature
+vendor/bin/pest plugins/webkul/progress-bar/tests/Feature
 ```
 
 The plugin ships a full Pest suite covering:
@@ -355,7 +355,7 @@ Email `support@webkul.com` for security-related reports instead of opening a pub
 PRs welcome. Before submitting:
 
 ```bash
-vendor/bin/pest --testsuite=ProgressBarFeature
+vendor/bin/pest plugins/webkul/progress-bar/tests/Feature
 vendor/bin/pint plugins/webkul/progress-bar
 ```
 
