@@ -25,7 +25,7 @@ class ProgressBarServiceProvider extends PackageServiceProvider
     public function packageBooted(): void
     {
         FilamentAsset::register([
-            Css::make('progress-bar-styles', __DIR__.'/../resources/dist/progress-bar.css'),
+            Css::make('progress-bar', __DIR__.'/../resources/dist/progress-bar.css'),
         ], 'aureuserp/progress-bar');
     }
 }
