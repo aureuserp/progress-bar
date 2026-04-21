@@ -26,6 +26,6 @@ class ProgressBarServiceProvider extends PackageServiceProvider
     {
         FilamentAsset::register([
             Css::make('progress-bar-styles', __DIR__.'/../resources/dist/progress-bar.css'),
-        ], 'webkul/progress-bar');
+        ], 'aureuserp/progress-bar');
     }
 }

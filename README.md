@@ -1,7 +1,7 @@
 # Progress Bar for Filament v5
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/webkul/progress-bar.svg?style=flat-square)](https://packagist.org/packages/webkul/progress-bar)
-[![License](https://img.shields.io/packagist/l/webkul/progress-bar.svg?style=flat-square)](LICENSE.md)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/aureuserp/progress-bar.svg?style=flat-square)](https://packagist.org/packages/aureuserp/progress-bar)
+[![License](https://img.shields.io/packagist/l/aureuserp/progress-bar.svg?style=flat-square)](LICENSE.md)
 
 <p align="center">
     <picture>
@@ -74,7 +74,7 @@ A feature-rich **Filament v5** table column & infolist entry that renders progre
 ## Installation
 
 ```bash
-composer require webkul/progress-bar
+composer require aureuserp/progress-bar
 ```
 
 Service provider is auto-discovered. CSS is registered via `FilamentAsset` and published automatically during `artisan filament:assets`.
@@ -90,7 +90,7 @@ Add the plugin's Blade files to your theme's CSS so Tailwind picks up its utilit
 
 ```css
 /* resources/css/filament/admin/theme.css */
-@source '../../../../vendor/webkul/progress-bar/resources/**/*.blade.php';
+@source '../../../../vendor/aureuserp/progress-bar/resources/**/*.blade.php';
 ```
 
 Rebuild your theme: `npm run build`.
@@ -313,7 +313,7 @@ php artisan vendor:publish --tag="progress-bar-translations"
 ## Testing
 
 ```bash
-vendor/bin/pest plugins/webkul/progress-bar/tests/Feature
+vendor/bin/pest plugins/aureuserp/progress-bar/tests/Feature
 ```
 
 The plugin ships a full Pest suite covering:
@@ -346,7 +346,7 @@ Fixtures live at `tests/Feature/Fixtures/`.
 
 ## Security
 
-Email `support@webkul.com` for security-related reports instead of opening a public issue.
+Email `support@aureuserp.com` for security-related reports instead of opening a public issue.
 
 ---
 
@@ -355,8 +355,8 @@ Email `support@webkul.com` for security-related reports instead of opening a pub
 PRs welcome. Before submitting:
 
 ```bash
-vendor/bin/pest plugins/webkul/progress-bar/tests/Feature
-vendor/bin/pint plugins/webkul/progress-bar
+vendor/bin/pest plugins/aureuserp/progress-bar/tests/Feature
+vendor/bin/pint plugins/aureuserp/progress-bar
 ```
 
 When adding a new option:
@@ -370,7 +370,7 @@ When adding a new option:
 
 ## Credits
 
-- [Webkul](https://webkul.com) — plugin author
+- [AureusERP](https://aureuserp.com) — plugin author
 - [Filament team](https://filamentphp.com) — the excellent admin framework
 - [filamentphp/plugin-skeleton](https://github.com/filamentphp/plugin-skeleton) — structural template
 

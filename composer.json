@@ -1,20 +1,20 @@
 {
-    "name": "webkul/progress-bar",
+    "name": "aureuserp/progress-bar",
     "description": "A Filament v5 progress-bar table column & infolist entry with sizes, shapes, stripes, gradients, thresholds, and ARIA-compliant output.",
     "keywords": [
-        "webkul",
+        "aureuserp",
         "laravel",
         "filamentphp",
         "filament",
         "filament-plugin",
         "progress-bar"
     ],
-    "homepage": "https://github.com/webkul/progress-bar",
+    "homepage": "https://github.com/aureuserp/progress-bar",
     "license": "MIT",
     "authors": [
         {
-            "name": "Webkul",
-            "email": "support@webkul.com",
+            "name": "AureusERP",
+            "email": "support@aureuserp.com",
             "role": "Developer"
         }
     ],

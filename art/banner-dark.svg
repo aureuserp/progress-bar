@@ -90,6 +90,6 @@
 
     <g transform="translate(980, 80)" font-family="'SF Mono', Menlo, Monaco, Consolas, 'Liberation Mono', monospace">
         <rect x="0" y="0" width="200" height="32" rx="16" fill="#f8fafc" opacity="0.95"/>
-        <text x="14" y="21" font-size="13" font-weight="600" fill="#0f172a">webkul/progress-bar</text>
+        <text x="14" y="21" font-size="13" font-weight="600" fill="#0f172a">aureuserp/progress-bar</text>
     </g>
 </svg>
