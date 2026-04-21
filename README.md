@@ -19,7 +19,6 @@ A feature-rich **Filament v5** table column & infolist entry that renders progre
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Theme setup](#theme-setup)
 - [Quick start](#quick-start)
 - [API reference](#api-reference)
   - [Value](#value)
@@ -78,22 +77,6 @@ composer require aureuserp/progress-bar
 ```
 
 Service provider is auto-discovered. CSS is registered via `FilamentAsset` and published automatically during `artisan filament:assets`.
-
----
-
-## Theme setup
-
-> [!IMPORTANT]
-> If you are using Filament Panels and have not set up a custom theme, follow [Creating a custom theme](https://filamentphp.com/docs/5.x/styling/overview#creating-a-custom-theme) first.
-
-Add the plugin's Blade files to your theme's CSS so Tailwind picks up its utility classes:
-
-```css
-/* resources/css/filament/admin/theme.css */
-@source '../../../../vendor/aureuserp/progress-bar/resources/**/*.blade.php';
-```
-
-Rebuild your theme: `npm run build`.
 
 ---
 
@@ -339,7 +322,7 @@ Fixtures live at `tests/Feature/Fixtures/`.
 |---|---|---|
 | `Target class not found` | Autoload cache stale | `composer dump-autoload && php artisan optimize:clear` |
 | View not found | Service provider not registered | `php artisan package:discover` |
-| Styles look wrong | Theme didn't scan plugin Blade files | Add the `@source` directive in [Theme setup](#theme-setup) |
+| Styles missing | Filament asset cache stale | `php artisan filament:assets` |
 | Bar stays empty | `max()` is smaller than current value, or `min()` equals `max()` | Verify `min < max` and the resolved state is numeric |
 
 ---
